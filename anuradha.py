@@ -280,9 +280,9 @@ else:
 # ── HERO TEXT ─────────────────────────────────────────────────────────────────
 st.markdown("""
 <div class="hero">
-  <div class="hero-badge">✦ A Treasure from Childhood ✦</div>
+  <div class="hero-badge">✦ A Celebration of My Bestfriend ✦</div>
   <h1>My Bestfriend —<br><span>Anuradha</span> 🌼</h1>
-  <span class="hero-sub">It started in Class 3 — and stayed in the heart forever 🍂</span>
+  <span class="hero-sub">From Class 3 to today — still sharing the same classroom & everything in between 🍂</span>
 </div>
 """, unsafe_allow_html=True)
 
@@ -294,7 +294,7 @@ st.markdown('<h2 class="sec-title">A Childhood Like No Other</h2>', unsafe_allow
 st.markdown("""
 <div class="ctr-row">
   <div class="ctr-chip"><div class="ctr-val">3rd</div><div class="ctr-lbl">Class We Met</div></div>
-  <div class="ctr-chip"><div class="ctr-val">🌼</div><div class="ctr-lbl">Pure Bond</div></div>
+  <div class="ctr-chip"><div class="ctr-val">🌼</div><div class="ctr-lbl">Still Together</div></div>
   <div class="ctr-chip"><div class="ctr-val">∞</div><div class="ctr-lbl">Memories</div></div>
   <div class="ctr-chip"><div class="ctr-val">💛</div><div class="ctr-lbl">My Friend</div></div>
 </div>
@@ -337,7 +337,7 @@ for yr, mem in [
     ("Class 3 — Where It All Began 🎒","A new class, a new year — and somehow, sitting near each other, we just clicked. That's where our story started."),
     ("The Classroom Days 😄","Shared tiffin boxes, whispered jokes during lectures, borrowing each other's erasers. Little moments that quietly became the best part of school."),
     ("The Playground & Beyond 🌼","Recess felt too short when we were together. Running around, making up games, laughing at everything — those were the golden hours."),
-    ("Forever in My Heart ✨","School years eventually moved on, but the friendship that started in Class 3 never really left. It just moved to a quieter, warmer corner of the heart."),
+    ("Right Now — Still Going Strong ✨","Same classroom, same bond — just more memories added every single day. Some friendships don't need distance to be appreciated. This one is lived and loved right now."),
 ]:
     st.markdown(f'<div class="tl-item"><div class="tl-dot"></div><div class="tl-card"><div class="tl-year">{yr}</div><p class="tl-mem">{mem}</p></div></div>', unsafe_allow_html=True)
 st.markdown('</div>', unsafe_allow_html=True)
@@ -350,14 +350,14 @@ st.markdown('<h2 class="sec-title">A Note for Anuradha</h2>', unsafe_allow_html=
 st.markdown("""
 <div class="msg-card">
   <p>Dear Anuradha, it all started in Class 3 — a new classroom, a new year,
-  and somehow, you were just there. No big introduction, no plan. Just two kids
+  and somehow, you were just there. No big introduction, no plan. Just two people
   who found each other naturally, the way good things always seem to happen.</p>
-  <p>I think about those small, golden days — the classroom, the playground, the way we laughed
-  at things that made no sense to anyone but us. Those moments were so simple,
-  yet somehow they became some of the most beautiful memories I carry.</p>
-  <p>Class 3 gave me a lot of things, but the best thing it gave me was you.
-  A real friend, at just the right time, in the most ordinary place — and that made it
-  extraordinary. Thank you for being that friend, Anuradha. 🌼</p>
+  <p>And the best part? We're still here — still sharing the same classroom, still
+  making memories every single day. Not everyone gets to say that. Most friendships
+  are looked back on. Ours is still being lived, and that makes it extra special.</p>
+  <p>Thank you for being beside me not just in the past, but right now — today, tomorrow,
+  every ordinary school day that becomes a little better just because you're in it.
+  I'm so glad Class 3 brought us together, Anuradha. 🌼</p>
   <div class="msg-sig">With warmth & nostalgia, always 🍂</div>
 </div>
 """, unsafe_allow_html=True)
@@ -367,22 +367,22 @@ st.markdown('<div class="divider">✦ ◈ ✦ ◈ ✦</div>', unsafe_allow_html=
 # ── HOPE BANNER ───────────────────────────────────────────────────────────────
 st.markdown("""
 <div class="hope">
-  <h2>🌅 A Wish Across Time 🌅</h2>
-  <p>Wherever you are today, Anuradha — I hope life has been as kind to you as you were to me.
-  I hope you're surrounded by laughter, by love, by all the good things you deserve.
-  You may not know how much those early years meant, but they meant the world.
-  Thank you for being my first real friend. 🌼</p>
+  <h2>🌅 Here's to Us — Today & Always 🌅</h2>
+  <p>We started in Class 3 and we're still going — still laughing in the same classroom,
+  still making the ordinary days feel special. Not everyone finds a friend like this.
+  I'm glad I found mine right here, right beside me.
+  Here's to every day we've shared and every one still to come. 🌼</p>
 </div>
 """, unsafe_allow_html=True)
 
 st.markdown("<br>", unsafe_allow_html=True)
 ca, cb, cc = st.columns([1,2,1])
 with cb:
-    if st.button("🌼 Celebrate Our Childhood Bond!", use_container_width=True):
+    if st.button("🌼 Celebrate Our Friendship!", use_container_width=True):
         st.balloons()
-        st.success("💛 Here's to you, Anuradha — my first friend, forever in my heart!")
+        st.success("💛 Here's to you, Anuradha — my classmate, my bestfriend, always!")
         time.sleep(0.4)
         st.snow()
 
 # ── FOOTER ────────────────────────────────────────────────────────────────────
-st.markdown('<div class="footer">Made with 💛 for Anuradha · Friends since Class 3, remembered forever 🌼</div>', unsafe_allow_html=True)
+st.markdown('<div class="footer">Made with 💛 for Anuradha · Classmates since Class 3, bestfriends forever 🌼</div>', unsafe_allow_html=True)

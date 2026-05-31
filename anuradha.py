@@ -222,7 +222,7 @@ h1, h2, h3, h4, h5, h6,
     background:radial-gradient(ellipse at 30% 40%,#fde68a22 0%,transparent 60%);
     pointer-events:none;
 }
-.hope h2 { font-family:'Cormorant Garamond',serif; font-size:clamp(1.5rem,4vw,2.2rem); margin:0 0 1rem; font-weight:700; }
+.hope h2 { font-family:'Cormorant Garamond',serif; font-size:clamp(1.5rem,4vw,2.2rem); margin:0 0 1rem; font-weight:700; color:#ffffff !important; -webkit-text-fill-color:#ffffff !important; }
 .hope p  { font-size:1.02rem; line-height:1.95; opacity:.95; max-width:640px; margin:0 auto; font-weight:500; }
 
 /* ── Footer ── */
@@ -281,8 +281,8 @@ else:
 st.markdown("""
 <div class="hero">
   <div class="hero-badge">✦ A Treasure from Childhood ✦</div>
-  <h1>My First Best Friend —<br><span>Anuradha</span> 🌼</h1>
-  <span class="hero-sub">Some friendships begin before we even know what friendship means 🍂</span>
+  <h1>My Bestfriend —<br><span>Anuradha</span> 🌼</h1>
+  <span class="hero-sub">It started in Class 3 — and stayed in the heart forever 🍂</span>
 </div>
 """, unsafe_allow_html=True)
 
@@ -293,10 +293,10 @@ st.markdown('<p class="sec-label">🌟 Our Bond in Numbers</p>', unsafe_allow_ht
 st.markdown('<h2 class="sec-title">A Childhood Like No Other</h2>', unsafe_allow_html=True)
 st.markdown("""
 <div class="ctr-row">
-  <div class="ctr-chip"><div class="ctr-val">3</div><div class="ctr-lbl">Classes Together</div></div>
+  <div class="ctr-chip"><div class="ctr-val">3rd</div><div class="ctr-lbl">Class We Met</div></div>
   <div class="ctr-chip"><div class="ctr-val">🌼</div><div class="ctr-lbl">Pure Bond</div></div>
   <div class="ctr-chip"><div class="ctr-val">∞</div><div class="ctr-lbl">Memories</div></div>
-  <div class="ctr-chip"><div class="ctr-val">💛</div><div class="ctr-lbl">First Friend</div></div>
+  <div class="ctr-chip"><div class="ctr-val">💛</div><div class="ctr-lbl">My Friend</div></div>
 </div>
 """, unsafe_allow_html=True)
 
@@ -334,10 +334,10 @@ st.markdown('<p class="sec-label">⏳ How It All Happened</p>', unsafe_allow_htm
 st.markdown('<h2 class="sec-title">Our Little Story</h2>', unsafe_allow_html=True)
 st.markdown('<div class="tl">', unsafe_allow_html=True)
 for yr, mem in [
-    ("Class 1 — The Beginning 🎒","Two tiny kids, new school bags, nervous smiles. We sat near each other and somehow, without trying, became inseparable."),
-    ("Class 2 — The Real Bond 😄","Shared tiffin boxes, stolen pencils, and whispering during lectures. We didn't just share a classroom — we shared everything."),
-    ("Class 3 — The Golden Chapter 🌼","Our last year together before life pulled us different ways. We didn't know it then, but those days were some of the most special of our lives."),
-    ("Forever in My Heart ✨","We may have walked different paths after Class 3, but Anuradha never left my heart. Childhood friendships don't end — they just live in a softer place inside us."),
+    ("Class 3 — Where It All Began 🎒","A new class, a new year — and somehow, sitting near each other, we just clicked. That's where our story started."),
+    ("The Classroom Days 😄","Shared tiffin boxes, whispered jokes during lectures, borrowing each other's erasers. Little moments that quietly became the best part of school."),
+    ("The Playground & Beyond 🌼","Recess felt too short when we were together. Running around, making up games, laughing at everything — those were the golden hours."),
+    ("Forever in My Heart ✨","School years eventually moved on, but the friendship that started in Class 3 never really left. It just moved to a quieter, warmer corner of the heart."),
 ]:
     st.markdown(f'<div class="tl-item"><div class="tl-dot"></div><div class="tl-card"><div class="tl-year">{yr}</div><p class="tl-mem">{mem}</p></div></div>', unsafe_allow_html=True)
 st.markdown('</div>', unsafe_allow_html=True)
@@ -349,14 +349,15 @@ st.markdown('<p class="sec-label">💌 From My Heart</p>', unsafe_allow_html=Tru
 st.markdown('<h2 class="sec-title">A Note for Anuradha</h2>', unsafe_allow_html=True)
 st.markdown("""
 <div class="msg-card">
-  <p>Dear Anuradha, you were my very first friend — before I even understood what friendship truly meant.
-  You were just there, naturally, the way sunshine is just there in the morning.</p>
+  <p>Dear Anuradha, it all started in Class 3 — a new classroom, a new year,
+  and somehow, you were just there. No big introduction, no plan. Just two kids
+  who found each other naturally, the way good things always seem to happen.</p>
   <p>I think about those small, golden days — the classroom, the playground, the way we laughed
   at things that made no sense to anyone but us. Those moments were so simple,
   yet somehow they became some of the most beautiful memories I carry.</p>
-  <p>Growing up meant growing apart, and life took us on separate roads after Class 3.
-  But you left a mark on me that no distance or time could ever erase.
-  You were my first chapter, Anuradha — and what a wonderful chapter it was. 🌼</p>
+  <p>Class 3 gave me a lot of things, but the best thing it gave me was you.
+  A real friend, at just the right time, in the most ordinary place — and that made it
+  extraordinary. Thank you for being that friend, Anuradha. 🌼</p>
   <div class="msg-sig">With warmth & nostalgia, always 🍂</div>
 </div>
 """, unsafe_allow_html=True)
@@ -384,4 +385,4 @@ with cb:
         st.snow()
 
 # ── FOOTER ────────────────────────────────────────────────────────────────────
-st.markdown('<div class="footer">Made with 💛 for Anuradha · First friends, forever remembered 🌼</div>', unsafe_allow_html=True)
+st.markdown('<div class="footer">Made with 💛 for Anuradha · Friends since Class 3, remembered forever 🌼</div>', unsafe_allow_html=True)
